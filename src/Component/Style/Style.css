@@ -385,9 +385,6 @@ footer .after-bottom::after {
     font-size: 1.1rem;
     text-align: center;
   }
-  .store .boxs .title {
-    left: 0;
-  }
   .store .boxs .title p {
     font-size: 1rem;
   }

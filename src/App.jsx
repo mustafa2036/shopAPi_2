@@ -24,7 +24,7 @@ export default function App() {
         <Loading/>
         <Navbar/>
         <Routes>
-          <Route path='/' element={<All/>}/>
+          <Route path='' element={<All/>}/>
           <Route path='all' element={<All/>}/>
           <Route path='store' element={<Store/>}/>
           <Route path='shopdetalis' element={<ShopDetalis/>}>

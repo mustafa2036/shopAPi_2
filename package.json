@@ -1,4 +1,5 @@
 {
+  "homepage": "https://mustafa2036.github.io/shopAPi_2",
   "name": "crispy_kitchen",
   "version": "0.1.0",
   "private": true,
@@ -9,6 +10,7 @@
     "@testing-library/user-event": "^13.5.0",
     "axios": "^0.27.2",
     "bootstrap": "^5.2.0",
+    "gh-pages": "^4.0.0",
     "joy": "^0.1.1",
     "jquery": "^3.6.1",
     "jwt-decode": "^3.1.2",
@@ -19,6 +21,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
